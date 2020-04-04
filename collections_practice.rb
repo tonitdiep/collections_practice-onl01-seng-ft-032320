@@ -36,7 +36,7 @@ end
 
 def add_s(array)
   array.each_with_index do |word|
-    word << ("s")
-    except word[1].select
+  while  word << ("s")
+    yield word[1].select
   end
 end
