@@ -38,6 +38,6 @@ end
 
 def add_s(array)
   array.each do |word|
-    word << ("s") exclude.[1]
+    word << ("s") except word.[1]
   end
 end
