@@ -36,7 +36,7 @@ def sum_array(integers)
 end
 
 def add_s(array)
-  array.collect do |word|
+  array.each do |word|
   if array[1] = word
      word
   else
