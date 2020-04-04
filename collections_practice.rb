@@ -10,8 +10,8 @@ def sort_array_char_count(pets)
   pets.sort_by(&:length)
 end
 
-def swap_elements(elements)
-  elements.rotate(1, 2)
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
 end
 
 def kesha_maker(array)
