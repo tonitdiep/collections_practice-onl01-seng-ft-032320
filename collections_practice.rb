@@ -36,7 +36,7 @@ def sum_array(integers)
 end
 
 def add_s(array)
-  array.each do |word| - word[1]
-  word << ("s")
+  array.each do |word| 
+  word << ("s"), except word[1]
   end
 end
