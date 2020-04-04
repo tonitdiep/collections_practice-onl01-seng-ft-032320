@@ -20,12 +20,10 @@ def reverse_array(array)
  end
 
 def kesha_maker(array)
-  #array.each[i] include "s"
- while array.each[i] include "s"
+array.each {|x| print, x "array"}
 end
-
 def find_a(a)
-  a.start_with
+  #a.start_with
 end
 
 def sum_array(integers)
