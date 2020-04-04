@@ -23,7 +23,9 @@ def kesha_maker(array)
   #array.each[i] include "s"
  while array.each[i] include "s"
 end
+
 def find_a(a)
+  a.start_with
 end
 
 def sum_array(integers)
