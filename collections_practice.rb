@@ -27,8 +27,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-
-  array.start_with
+  array.start_with do |word|
   letter "a" w/ find, select, detect
 end
 
@@ -38,6 +37,6 @@ end
 
 def add_s(array)
   array.each do |word|
-    word << ("s") except word[1]
+  return word << ("s") unless word[1]
   end
 end
