@@ -11,10 +11,7 @@ def sort_array_char_count(pets)
 end
 
 def swap_elements(array)
-  index_1_item = array[1]
-  index_2_item = array[2]
-  array[1] = index_2_item
-  array[2] = index_1_item
+  array[1], array[2] = array[1], array[2] 
   array 
 end
 
