@@ -11,7 +11,7 @@ def sort_array_char_count(pets)
 end
 
 def swap_elements(array)
-  [1, 2].sort {|a, b| b <=> a}
+  [1, 2].sort 
 end
 
 def kesha_maker(array)
