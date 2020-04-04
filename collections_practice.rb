@@ -1,3 +1,4 @@
+require 'pry'
 def sort_array_asc(num)
   num.sort
 end
@@ -21,7 +22,7 @@ def reverse_array(array)
 
 def kesha_maker(array)
   array.each do |word|
-binding.pry
+    binding.pry
     word[2]
   end
 end
