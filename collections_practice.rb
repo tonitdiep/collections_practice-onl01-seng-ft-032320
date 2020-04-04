@@ -20,9 +20,10 @@ def reverse_array(array)
  end
 
 def kesha_maker(array)
-array.each do {|array| print "$"}
+array.each do {|word| print "$"}
 end
 end
+
 def find_a(a)
   #a.start_with
 end
