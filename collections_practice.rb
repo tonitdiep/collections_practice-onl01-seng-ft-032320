@@ -35,7 +35,7 @@ def sum_array(integers)
 end
 
 def add_s(array)
-  array.each_with_index do |word|
+  array.each do |word|
   while  word << ("s")
     yield word[1].select
   end
