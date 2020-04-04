@@ -36,6 +36,6 @@ def sum_array(integers)
 end
 
 def add_s(word)
-counter =   
+counter =
 [1,2].each_with_index.collect << {|element, index|
 end
