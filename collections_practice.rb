@@ -26,8 +26,10 @@ def kesha_maker(array)
   end
 end
 
-def find_a(a)
-  #a.start_with
+def find_a(array)
+  
+  array.start_with
+  letter "a" w/ find, select, detect 
 end
 
 def sum_array(integers)
@@ -36,7 +38,6 @@ end
 
 def add_s(array)
   array.each do |word|
-    word << ("s")
-    
+    word << ("s") , word.exclude[1]
   end
 end
