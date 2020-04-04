@@ -11,7 +11,7 @@ def sort_array_char_count(pets)
 end
 
 def swap_elements(array)
-  "array[2], array[3] = array[3], array[2]"
+  array[1], array[2] = array[2], array[1]
 end
 
 def kesha_maker(array)
