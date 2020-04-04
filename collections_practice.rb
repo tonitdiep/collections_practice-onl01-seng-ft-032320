@@ -15,8 +15,8 @@ def swap_elements(elements)
 end
 
 def kesha_maker(array)
-  i = 0 
-  while i < array.each 
+  i = 0
+  while i < array.each
     yield array[2] +"$"
     i += 1
   end
