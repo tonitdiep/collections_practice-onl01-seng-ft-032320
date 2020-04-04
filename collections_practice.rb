@@ -20,14 +20,9 @@ def reverse_array(array)
  end
 
 def kesha_maker(array)
-#  i = []
-#  while i < array.each
-#    yield array[2] +"$"
-#    i += 1
-#  end
-  #array.each[3] << "$"
+  #array.each[i] include "s"
+ while array.each[i] include "s" 
 end
-
 def find_a(a)
 end
 
