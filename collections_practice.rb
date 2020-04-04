@@ -27,9 +27,9 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
+
   array.start_with
-  letter "a" w/ find, select, detect 
+  letter "a" w/ find, select, detect
 end
 
 def sum_array(integers)
