@@ -38,6 +38,8 @@ end
 def add_s(array)
   array.each do |word|
   if array[1] = word
+    return word
+  else 
   word << ("s")
   end
 end
