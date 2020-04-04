@@ -21,7 +21,7 @@ def reverse_array(array)
 
 def kesha_maker(array)
   #array.each[i] include "s"
- while array.each[i] include "s" 
+ while array.each[i] include "s"
 end
 def find_a(a)
 end
