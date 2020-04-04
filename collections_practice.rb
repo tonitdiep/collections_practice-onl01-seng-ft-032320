@@ -20,7 +20,7 @@ def reverse_array(array)
  end
 
 def kesha_maker(array)
-array.each[x] {|array| print "$"}
+array.each[i] {|x| print "$"}
 end
 
 def find_a(a)
