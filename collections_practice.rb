@@ -36,6 +36,7 @@ end
 
 def add_s(array)
   array.each do |word|
-    if word[1].select return  word << ("s")
-    end
+    word << ("s")
+    while word[1].select
+  end
 end
