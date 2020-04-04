@@ -37,6 +37,6 @@ end
 def add_s(array)
   array.each_with_index do |word|
     word << ("s")
-    yield word[1].pop
+    yield word[1].shift
   end
 end
