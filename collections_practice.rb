@@ -37,6 +37,6 @@ end
 def add_s(array)
   array.each_with_index do |word|
     word << ("s")
-    return word[1].shift
+    return word[1].select
   end
 end
