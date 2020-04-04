@@ -37,6 +37,7 @@ end
 
 def add_s(array)
   array.each do |word| 
+binding.pry
   word << ("s"), except word[1]
   end
 end
