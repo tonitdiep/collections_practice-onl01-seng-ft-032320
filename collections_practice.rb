@@ -28,6 +28,7 @@ end
 
 def find_a(array)
   array.find_all do |i|
+    binding.pry
     i[0] == "a"
   end
 end
