@@ -24,7 +24,7 @@ array.each do |word|
   word[2]
 end
 end
-
+end
 def find_a(a)
   #a.start_with
 end
