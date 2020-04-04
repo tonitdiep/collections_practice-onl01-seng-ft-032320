@@ -36,7 +36,6 @@ def sum_array(integers)
 end
 
 def add_s(array)
-binding.pry
   array.each do |word|
   word << ("s"), except word[1]
   end
