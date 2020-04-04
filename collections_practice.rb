@@ -29,6 +29,7 @@ end
 def find_a(array)
   array.find_all do |i|
     i[0] == "a"
+  end
 end
 
 def sum_array(integers)
