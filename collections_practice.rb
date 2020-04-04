@@ -11,7 +11,7 @@ def sort_array_char_count(pets)
 end
 
 def swap_elements(array)
-  array[1], array[2] = array[2], array[1] 
+  array[1], array[2] = array[2], array[1]
     array
 end
 
@@ -25,7 +25,6 @@ def kesha_maker(array)
 end
 
 def find_a(a)
-
 end
 
 def sum_array(integers)
@@ -33,6 +32,6 @@ def sum_array(integers)
 end
 
 def add_s(word)
-counter =
+
 #[1,2].each_with_index.collect << {|element, index|
 end
