@@ -14,8 +14,13 @@ def swap_elements(elements)
   elements.rotate![(2), (3)]
 end
 
-def kesha_maker(word)
-  puts word
+def kesha_maker(array)
+  i = 0 
+  while i < array.each 
+    yield array[2] +"$"
+    i += 1
+  end
+  array
 end
 
 def find_a(a)
