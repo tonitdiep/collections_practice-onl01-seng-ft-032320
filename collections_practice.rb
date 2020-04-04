@@ -20,7 +20,7 @@ def kesha_maker(array)
 #    yield array[2] +"$"
 #    i += 1
 #  end
-  array
+  array.each[3] << "$"
 end
 
 def find_a(a)
