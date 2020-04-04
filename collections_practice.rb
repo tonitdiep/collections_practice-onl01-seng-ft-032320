@@ -15,11 +15,11 @@ def swap_elements(elements)
 end
 
 def kesha_maker(array)
-  i = 0
-  while i < array.each
-    yield array[2] +"$"
-    i += 1
-  end
+#  i = 0
+#  while i < array.each
+#    yield array[2] +"$"
+#    i += 1
+#  end
   array
 end
 
@@ -32,5 +32,5 @@ def sum_array(integers)
 end
 
 def add_s(word)
-  word.all << "s" {|x| [2].except}
+  #word.all << "s" {|x| [2].except}
 end
