@@ -22,7 +22,7 @@ def reverse_array(array)
 def kesha_maker(array)
 array.each[3] do {|word| print "$"}
 end
-end
+
 
 def find_a(a)
   #a.start_with
